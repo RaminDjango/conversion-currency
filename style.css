@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(/img/R.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   overflow-x: hidden;
+}
+
+
+form input {
+    position: absolute;
+    transform: translateX(480px) translateY(90px);
+    width: 359px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(199, 195, 191, 0.698);
+    padding: 20px;
+    color: white;
+
+}
+
+input:focus {
+    outline: auto;
+}
+
+form button {
+    position: relative;
+
+    padding: 20px 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+    top: 307px;
+    left: 545px;
+    background-color: rgb(73, 73, 75);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s ease;
+  
+}
+
+form button:hover {
+   
+    background-color: rgb(23, 23, 130);
+
+}
+
+
+#rezult {
+    position: absolute;
+    left: 478px;
+    padding: 7px;
+    top: 269px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif ;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: translate(20px, 30px);
+}
+
+
+select {
+    transform: translate(558px, -80px);
+    background-color: rgb(21, 21, 21);
+    color: white;
+    padding: 20px 50px;
+    
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 362px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    body {
+        background-image: url(/img/R.jpg);
+        background-repeat: no-repeat;
+        background-size:1330px;
+        background-position-x: -70px;
+    }
+    
+    
+    form input {
+        position: absolute;
+        transform: translateX(3px) translateY(60px);
+        width: 359px;
+        font-size: 40px;
+        border: none;
+        outline: none;
+        background-color: rgba(199, 195, 191, 0.698);
+        padding: 20px;
+        color: white;
+    
+    }
+    
+    input:focus {
+        outline: auto;
+    }
+    
+    form button {
+        position: relative;
+    
+        padding: 20px 40px;
+        font-size: 30px;
+        font-family: sans-serif;
+        top: 207px;
+        left: 19%;
+        background-color: rgb(73, 73, 75);
+        color: white;
+        border: none;
+        outline: none;
+      
+    }
+    
+    
+    #rezult {
+        position: absolute;
+        left: 3px;
+        padding: 7px;
+        top: 189px;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif ;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transform: translate(20px, 30px);
+    }
+}
